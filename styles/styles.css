@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #0D0D0D;
+}
+header {
+    width: 66%;
+    display: flex;
+    justify-content: flex-start;
+}
+section {margin-bottom: 10px;}
+h1,h2,p,li {color: white;}
+h1 {
+    font-size: 32px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 700;
+}
+h2 {
+    font-size: 24px;
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+p {
+    font-family: 'Athiti', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+p {padding: 10px;}
+
+.colors {border: 1px solid white;}
+.colors-container {
+    display: flex;
+    justify-content: center;
+}
+.colors-container div {
+    width: 160px;
+    height: 150px;
+}
+.BoogerBuster, .LinkGreen, .GreenGarter, .ClockChimesThirteen, .BlackWash {
+    margin: 10px;
+    border: 10px solid white;
+    font-weight: bold;
+}
+.BoogerBuster p, .LinkGreen p, .GreenGarter p, .ClockChimesThirteen p, .BlackWash p {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.BoogerBuster p, .GreenGarter p {
+    color: #0D0D0D;
+}
+.BoogerBuster {background-color: #05F26C;}
+.LinkGreen {background-color: #03A64A;}
+.GreenGarter {background-color: #60BF89;}
+.ClockChimesThirteen {background-color: #01260E;}
+.ClockChimesThirteen p:first-child {margin-bottom: -20px;}
+.BlackWash {
+    background-color: #0D0D0D;
+    margin: 10px;
+    border: 10px solid white;
+}
+
+.fonts {border: 1px solid white;}
+.fonts-container {display: flex;}
+.headings h1 {margin-left: 10px;}
+.fonts p {
+    margin: 0px 0px 0px 0px; 
+    line-height: 1.4;
+}
+.Vollkorn p {font-family: 'Vollkorn', serif;}
+.Vollkorn p:nth-child(1), .Cuprum p:nth-child(1), .Athiti p:nth-child(1) {
+    font-size: 20px;
+    text-decoration: solid underline;
+}
+.Vollkorn p:nth-child(2), .Cuprum p:nth-child(2), .Athiti p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 400;
+}
+.Vollkorn p:nth-child(3), .Cuprum p:nth-child(3), .Athiti p:nth-child(3) {
+    font-size: 16px;
+    font-weight: 700;
+}
+.Vollkorn p:nth-child(4), .Cuprum p:nth-child(4) {
+    font-size: 16px;
+    font-style: italic;
+}
+.Cuprum p {font-family: 'Cuprum', sans-serif;  }
+.Athiti p {
+    font-family: 'Athiti', sans-serif;
+}
+.Athiti p:nth-child(4) {
+    font-size: 16px;
+    font-weight: 300;
+}
+.headings {border: 1px solid white;}
+.h1-styles {font-family: 'Vollkorn', serif;}
+.h2-styles {font-family: 'Cuprum', sans-serif;}
+.p-styles {font-family: 'Athiti', sans-serif;}
